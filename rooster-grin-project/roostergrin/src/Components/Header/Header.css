@@ -1,0 +1,17 @@
+
+img {
+width: 100%;
+}
+
+.btn {
+  color: white;
+  background-color: purple;
+}
+
+.herowrapper {
+  color: white;
+  height: 80vh;
+  background-image: url("../../front-end-dev-test-assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

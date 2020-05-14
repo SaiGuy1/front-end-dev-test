@@ -1,17 +1,21 @@
 
-img {
-width: 100%;
-}
 
 .btn {
   color: white;
   background-color: purple;
 }
 
+.logo {
+  max-width: 20vw;
+  margin-left: 10%;
+}
+
+
 .herowrapper {
   color: white;
-  height: 80vh;
   background-image: url("../../front-end-dev-test-assets/hero.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  height: 70vh;
+  width: auto;
 }

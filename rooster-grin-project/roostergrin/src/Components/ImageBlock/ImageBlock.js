@@ -8,8 +8,8 @@ import './ImageBlock.css'
 class ImageBlock extends React.Component {
   render() {
     return (
-      <div class='imagewrapper'>
-        <img src={img1} alt={"firstimage"} />
+      <div class='imagewrapper' style={{border: `${this.props.size} solid ${this.props.border}`, borderRadius:`${this.props.radius}`, padding:`${this.props.padding}`}}>
+        <img src={this.props.name} alt={"image"}  />
       </div>
     )
   }

@@ -9,7 +9,7 @@ class Banner extends React.Component {
     return (
 
       <div class="bannerwrapper">
-        <img src={banner1} /> 
+        <img src={this.props.name} />
       </div>
 
     )

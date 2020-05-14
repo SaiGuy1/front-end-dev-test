@@ -30,6 +30,12 @@
   height: 80vh;
 }
 
+.outline {
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+
+}
+
 #logo {
   margin-left: 10%;
   padding-top: 5%;
@@ -37,6 +43,7 @@
 }
 
 #welcome {
+  font-family: 'Open Sans', sans-serif;
   margin-top: 20vh;
   text-align: center;
   color: white;
@@ -45,5 +52,8 @@
 }
 
 h4 {
-  font-size: 10vh;
+  font-size: 6vh;
+  fill: "none";
+  stroke-width: ".015";
+  stroke: "black";
 }

@@ -4,6 +4,7 @@ import './index.css';
 import img1 from "./front-end-dev-test-assets/img-1.jpg"
 import banner1 from "./front-end-dev-test-assets/banner-1.jpg"
 import banner2 from "./front-end-dev-test-assets/banner-2.jpg"
+import stars from "./front-end-dev-test-assets/star-01.gif"
 import App from './Components/App';
 import Hero from './Components/Header/Header.js'
 import TextBlock from './Components/TextBlock/TextBlock.js'
@@ -54,10 +55,10 @@ ReactDOM.render(
     </Row>
     <Row >
       <Col xs={12} md={6} >
-        <TextBlock words="LOREM IPSUM DOLOR SIT AMET" paragraph={paragraphFillerText} color="black" link="> Lorem Ipsum "/>
+        <TextBlock words="LOREM IPSUM DOLOR SIT AMET" image={[<img src={stars}/>]} color="black" link="> Lorem Ipsum "/>
       </Col>
       <Col xs={12} md={6}>
-        <HeroCarousel />
+        <HeroCarousel paragraph={paragraphFillerText} />
       </Col>
     </Row>
     <Row>

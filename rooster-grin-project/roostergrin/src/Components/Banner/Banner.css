@@ -6,14 +6,70 @@ img {
   position:relative;
 }
 
+@media screen and (max-width: 800px) {
+    body {
+      width: 100%;
+    }
+    div.bannerwords {
+      bottom: 2vh;
+      left: 5vh;
+      top: 2vh;
+      text-align: left;
+      font-size: 2vh;
+      color: Purple;
+      padding-left: 5vw;
+    }
+    div.paragraph {
+      font-size: 5px;
+        color: black;
+    }
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 10px;
+      border: none;
+    }
+    div.herowrapper {
+      color: white;
+      background-image: url("../../front-end-dev-test-assets/hero.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 20vh;
+    }
+
+    div#welcome {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 5px;
+      margin-top: 0;
+      text-align: center;
+      color: white;
+      position: relative;
+      animation: fade-in 4s linear;
+    }
+    div#logo {
+      margin-left: 5%;
+      padding-top: 2%;
+      width: 20vw;
+    }
+    h4{
+        font-size: 2vh;
+        margin-top: 10px;
+    }
+
+    div.words {
+      margin-top: 0px;
+    }
+
+
+}
+
 .btn {
-  font-size: 3vh;
+
     box-shadow: 2px 2px 2px black;
 }
 
 .bannerbtn {
-  background-color: #ff7043;
-  border-color: #ff7043;
+  border: none;
 }
 
 .bannerbtn:hover {
@@ -26,9 +82,10 @@ img {
   bottom: 20vh;
   left: 35vh;
   top: 32vh;
+  right: 5vh;
   text-align: left;
   font-size: 5vh;
-  color: purple;
+  color: white;
   padding-left: 5vw;
 }
 

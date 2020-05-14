@@ -1,3 +1,38 @@
 img {
-  width: 100%
+  width: 100%;
+}
+
+.bannerwrapper {
+  position:relative;
+}
+
+.btn {
+  font-size: 3vh;
+    box-shadow: 2px 2px 2px black;
+}
+
+.bannerbtn {
+  background-color: #ff7043;
+  border-color: #ff7043;
+}
+
+.bannerbtn:hover {
+  background-color: purple;
+}
+
+.bannerwords {
+  position: absolute;
+  display: block;
+  bottom: 20vh;
+  left: 35vh;
+  top: 32vh;
+  text-align: left;
+  font-size: 5vh;
+  color: purple;
+  padding-left: 5vw;
+}
+
+.paragraph {
+  font-size: 2vh;
+    color: black;
 }

@@ -9,7 +9,9 @@ import Hero from './Components/Header/Header.js'
 import TextBlock from './Components/TextBlock/TextBlock.js'
 import ImageBlock from './Components/ImageBlock/ImageBlock.js'
 import IconBlock from './Components/IconBlock/IconBlock.js'
+import HeroCarousel from './Components/Carousel/Carousel.js'
 import Banner from './Components/Banner/Banner.js'
+import Footer from './Components/Footer/Footer.js'
 import {Container, Col, Row} from 'react-bootstrap'
 import * as serviceWorker from './serviceWorker';
 
@@ -39,7 +41,7 @@ ReactDOM.render(
     </Row>
     <Row >
       <Col xs={12} md={6} lg={6}>
-        <TextBlock words="LOREM IPSUM" paragraph={paragraphFillerText} color="black" link="> Lorem Ipsum "/>
+        <TextBlock words="LOREM IPSUM DOLOR SIT AMET" paragraph={paragraphFillerText} color="black" link="> Lorem Ipsum "/>
       </Col>
       <Col xs={12} md={6} lg={6}>
         <IconBlock />
@@ -47,8 +49,19 @@ ReactDOM.render(
     </Row>
     <Row>
       <Col xs={12} md={12}>
-        <Banner name={banner2}/>
+        <Banner name={banner2} bannerTwoWords={paragraphFillerText} left="35vw"/>
       </Col>
+    </Row>
+    <Row >
+      <Col xs={12} md={6} >
+        <TextBlock words="LOREM IPSUM DOLOR SIT AMET" paragraph={paragraphFillerText} color="black" link="> Lorem Ipsum "/>
+      </Col>
+      <Col xs={12} md={6}>
+        <HeroCarousel />
+      </Col>
+    </Row>
+    <Row>
+      <Footer />
     </Row>
   </Container>
   </React.StrictMode>,

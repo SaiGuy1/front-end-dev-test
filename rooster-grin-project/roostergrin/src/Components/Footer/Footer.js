@@ -1,19 +1,24 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import banner1 from "../../front-end-dev-test-assets/banner-1.jpg"
-import './Banner.css'
+import facebookLogo from "../../front-end-dev-test-assets/facebook.svg"
+import instagramLogo from "../../front-end-dev-test-assets/instagram.svg"
+import './Footer.css'
 
-class Banner extends React.Component {
+class Footer extends React.Component {
 
   render () {
     return (
-
-      <div class="bannerwrapper">
-        <img src={banner1} />
+      <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Follow Us:</span>
+        <br></br>
+        <img src={facebookLogo} style={{width: "4%", marginTop: '25px', marginBottom: '25px', color: 'purple'}}/>
+        <img src={instagramLogo} style={{width: "4%", marginTop: '25px', marginBottom: '25px'}}/>
       </div>
-
+    </footer>
     )
   }
 }
 
-export default Banner
+export default Footer

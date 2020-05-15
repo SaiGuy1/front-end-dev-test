@@ -8,7 +8,7 @@
 
   1. Mockups are followed ✅
   2. Carousel in last section ✅
-  3. Attention to detail ✅ (Hopefully)
+  3. Attention to detail ✅ <strong>(Hopefully)</strong>
   4. Mobile Responsive ✅
   5. Animations ✅
 
@@ -17,7 +17,7 @@
   1. Modular and concise code ✅
   2. Fully functional capabilities of built features ✅
       - We should not be seeing errors when we click on buttons ✅
-  3. Understanding best practices of web development
+  3. Understanding best practices of web development ✅
       - Naming conventions and styling
   4. Best use of images and assets ✅
   5. Use of a grid system ✅
@@ -39,7 +39,7 @@ These required features are requested specifically by the client and should be i
 
 ### *Please also submit a small write up discussing (leave answers to a sentence or two):*
 
-  1. What are the technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)
+  1. What are they technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)
 
 
   2. Any struggles you faced when developing with technology you chose

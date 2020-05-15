@@ -13,7 +13,7 @@ class Footer extends React.Component {
       <div class="container">
         <span class="text-muted">Follow Us:</span>
         <br></br>
-        <img src={facebookLogo} style={{width: "4%", marginTop: '25px', marginBottom: '25px', color: 'purple'}}/>
+        <img src={facebookLogo} style={{width: "4%", marginTop: '25px', marginBottom: '25px', color: 'purple', fill: 'purple'}}/>
         <img src={instagramLogo} style={{width: "4%", marginTop: '25px', marginBottom: '25px'}}/>
       </div>
     )

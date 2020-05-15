@@ -16,20 +16,20 @@ class IconBlock extends React.Component {
   render() {
     return (
       <>
-      <div class="backdrop">
+      <div class="backdrop" style={{margin: "", textAlign: "center"}}>
         <Row>
           <div class="icons">
-            <Col xs={12} md={3} style={{margin: "5vw"}}>
-              <ImageBlock name={icon1} border="purple" size="5px" radius="50%" padding="35px"/>
-              <TextBlock words="LOREM"/>
-              <ImageBlock name={icon3} border="purple" size="5px" radius="50%" padding="35px"/>
-              <TextBlock words="LOREM"/>
+            <Col xs={12} md={3} style={{margin: "6vw", textAlign: "center"}}>
+              <ImageBlock name={icon1} border="purple" size="5px" radius="50%" padding="45px"/>
+              <TextBlock caption="LOREM"/>
+              <ImageBlock name={icon3} border="purple" size="5px" radius="50%" padding="45px"/>
+              <TextBlock caption="LOREM IPSUM"/>
             </Col>
-            <Col xs={12} md={3} style={{margin: "5vw"}}>
-              <ImageBlock name={icon2} border="purple" size="5px" radius="50%" padding="35px"/>
-              <TextBlock words="LOREM IPSUM"/>
-              <ImageBlock name={icon4} border="purple" size="5px" radius="50%" padding="35px"/>
-              <TextBlock words="LOREM IPSUM"/>
+            <Col xs={12} md={3} style={{margin: "6vw"}}>
+              <ImageBlock name={icon2} border="purple" size="5px" radius="50%" padding="45px"/>
+              <TextBlock caption="LOREM"/>
+              <ImageBlock name={icon4} border="purple" size="5px" radius="50%" padding="45px"/>
+              <TextBlock caption="LOREM IPSUM"/>
             </Col>
           </div>
         </Row>

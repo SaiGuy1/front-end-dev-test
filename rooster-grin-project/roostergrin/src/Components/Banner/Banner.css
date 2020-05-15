@@ -7,8 +7,13 @@ img {
 }
 
 @media screen and (max-width: 800px) {
+    div.outline{
+          -webkit-text-stroke-width: .5px;
+    }
+
     body {
-      width: 100%;
+      width: 100vw;
+      text-align: center;
     }
     div.bannerwords {
       bottom: 2vh;
@@ -24,7 +29,7 @@ img {
         color: black;
     }
     .btn {
-      background-color: #4CAF50;
+      background-color: purple;
       color: white;
       padding: 10px 10px;
       border: none;
@@ -36,11 +41,15 @@ img {
       background-size: cover;
       height: 20vh;
     }
+    div.outline {
+      color: white;
+
+    }
 
     div#welcome {
       font-family: 'Open Sans', sans-serif;
-      font-size: 5px;
-      margin-top: 0;
+      font-size: 4px;
+      margin-top: 5px;
       text-align: center;
       color: white;
       position: relative;
@@ -51,21 +60,49 @@ img {
       padding-top: 2%;
       width: 20vw;
     }
-    h4{
-        font-size: 2vh;
-        margin-top: 10px;
+    h4 {
+      font-family: 'Open Sans', sans-serif;
+      fill: "none";
     }
 
     div.words {
       margin-top: 0px;
     }
 
+    h2 {
+      margin-left: auto;
+      color: purple;
+      font-size: 3vh;
+      font-family: 'Open Sans', sans-serif;
+      text-align: left;
+      font-weight: bold;
+    }
+    p {
+      margin-left: auto;
+      margin-bottom: 5%;
+      font-size: 2vh;
+      display: block;
+      text-align: left;
+    }
+
+
+    a {
+      color: purple;
+      font-size: 3vh;
+      text-align: left;
+    }
+
+    div.backdrop {
+      margin: 0;
+    }
+
 
 }
 
 .btn {
-
+    font-size: 200%;
     box-shadow: 2px 2px 2px black;
+    font-weight: bold;-weight:
 }
 
 .bannerbtn {
@@ -81,11 +118,11 @@ img {
   display: block;
   bottom: 20vh;
   left: 35vh;
-  top: 32vh;
+  top: 22vh;
   right: 5vh;
   text-align: left;
   font-size: 5vh;
-  color: white;
+  color: Purple;
   padding-left: 5vw;
 }
 

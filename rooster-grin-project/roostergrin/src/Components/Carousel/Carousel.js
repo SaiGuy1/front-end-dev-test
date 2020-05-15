@@ -26,7 +26,7 @@ class HeroCarousel extends React.Component {
             </Carousel.Item>
             <Carousel.Item width={600} height={650}>
               <Carousel.Caption>
-                <TextBlock paragraph={[<i class="fas fa-quote-left"></i>, paragraphFillerText, <i class="fas fa-quote-right"></i>]} words="Rooster 05/13/2020" image={[<img src={stars}/>]}/>
+                <TextBlock review={[<i class="fas fa-quote-left"></i>, paragraphFillerText, <i class="fas fa-quote-right"></i>]} words="Rooster 05/13/2020" image={[<img src={stars}/>]}/>
               </Carousel.Caption>
               </Carousel.Item>
       </Carousel>

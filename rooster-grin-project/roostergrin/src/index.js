@@ -21,6 +21,7 @@ let paragraphFillerText = "Lorem ipsum dolor sit amet, consectetur adipiscing el
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <------------------- Container for the Whole Layout -------------------> */}
   <Container fluid>
     <Row>
       <Col xs={12} md={12}>
@@ -55,7 +56,7 @@ ReactDOM.render(
     </Row>
     <Row >
       <Col xs={12} md={6} >
-        <TextBlock words="LOREM IPSUM DOLOR SIT AMET" image={[<img src={stars}/>]} color="black" link="> Lorem Ipsum "/>
+        <TextBlock words="LOREM IPSUM DOLOR SIT AMET" image={[<img src={stars}/>]} color="black"/>
       </Col>
       <Col xs={12} md={6}>
         <HeroCarousel paragraph={paragraphFillerText} />

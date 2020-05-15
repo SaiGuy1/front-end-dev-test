@@ -1,26 +1,32 @@
 
 .words {
   margin-left: 20%;
-padding-top: 10%;
-padding-bottom: 10%;
 padding-right: 8%;
 text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
+  margin-top: 20%;
+  margin-left: 20%;
   color: purple;
   font-size: 5vh;
   font-family: 'Open Sans', sans-serif;
-  text-align: center;
+  text-align: left;
+  font-weight: bold;
 }
 p {
+  margin-left: 20%;
   font-size: 2vh;
   display: block;
-  text-align: center;
+  text-align: left;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
   color: purple;
+  font-weight: bold;
   font-size: 3vh;
-  text-align: center;
+  text-align: left;
+    font-family: 'Open Sans', sans-serif;
 }

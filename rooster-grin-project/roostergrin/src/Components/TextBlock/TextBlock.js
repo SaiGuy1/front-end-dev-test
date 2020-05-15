@@ -13,9 +13,10 @@ class TextBlock extends React.Component {
       <div class="words">
         <h2 style={{color:`${this.props.color}`}}>{this.props.words}</h2>
         <p>{this.props.paragraph}</p>
-        <p>{this.props.review}</p>
-        <p>{this.props.image}</p>
-        <h3><a href='#'>{this.props.link}</a></h3>
+        <p class="review" style={{color:`black`}}>{this.props.review}</p>
+        <p style={{width:"50%"}}>{this.props.image}</p>
+        <h3 style={{color:`Black`, textAlign:'Center', marginLeft:'-10%', fontWeight:'bold', fontSize: '3vh'}}>{this.props.caption}</h3>
+        <p><a href='#'>{this.props.link}</a></p>
       </div>
     )
   }

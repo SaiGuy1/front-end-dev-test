@@ -23,46 +23,58 @@ ReactDOM.render(
     <App />
     {/* <------------------- Container for the Whole Layout -------------------> */}
   <Container fluid>
+    {/* <------------------- First Row Takes Up Entire Length -------------------> */}
     <Row>
       <Col xs={12} md={12}>
+      {/* <------------------- Header Component -------------------> */}
         <Hero />
       </Col>
     </Row>
+    {/* <------------------- Second Row is Split Between Two Even Columns in Desktop Site and Changes in Mobile -------------------> */}
     <Row >
       <Col xs={12} md={6} lg={6}>
+      {/* <------------------- TextBlock Component with Props for Lorem Ipsum Text  -------------------> */}
         <TextBlock words="LOREM IPSUM" paragraph={paragraphFillerText} color="purple" link="> Lorem Ipsum "/>
       </Col>
       <Col xs={12} md={6} lg={6}>
+      {/* <------------------- ImageBlock Component  -------------------> */}
         <ImageBlock name={img1}/>
       </Col>
     </Row>
     <Row>
       <Col xs={12} md={12}>
+      {/* <------------------- Banner Component for Full Length Images -------------------> */}
         <Banner name={banner1}/>
       </Col>
     </Row>
     <Row >
       <Col xs={12} md={6} lg={6}>
+      {/* <------------------- TextBlock Component with Props for Lorem Ipsum Text  -------------------> */}
         <TextBlock words="LOREM IPSUM DOLOR SIT AMET" paragraph={paragraphFillerText} color="black" link="> Lorem Ipsum "/>
       </Col>
       <Col xs={12} md={6} lg={6}>
+      {/* <------------------- IconBlock Component (Composed of 4 ImageBlock Components for Icons)  -------------------> */}
         <IconBlock />
       </Col>
     </Row>
     <Row>
       <Col xs={12} md={12}>
+        {/* <------------------- Banner Component for Full Length Images -------------------> */}
         <Banner name={banner2} bannerTwoWords={paragraphFillerText} left="35vw"/>
       </Col>
     </Row>
     <Row >
       <Col xs={12} md={6} >
+        {/* <------------------- TextBlock Component with Props for Lorem Ipsum Text  -------------------> */}
         <TextBlock words="LOREM IPSUM DOLOR SIT AMET" image={[<img src={stars}/>]} color="black"/>
       </Col>
       <Col xs={12} md={6}>
+      {/* <------------------- Carousel Component  -------------------> */}
         <HeroCarousel paragraph={paragraphFillerText} />
       </Col>
     </Row>
     <Row>
+    {/* <------------------- Footer Component  -------------------> */}
       <Footer />
     </Row>
   </Container>
